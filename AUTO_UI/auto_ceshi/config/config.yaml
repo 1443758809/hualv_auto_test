@@ -1,0 +1,13 @@
+URL: http://localhost:8085/WoniuBoss/
+log:
+    file_name: test.log
+    backup: 5
+    console_level: INFO
+    file_level: INFO
+    pattern: '%(module)s - %(funcName)s - %(lineno)d - %(asctime)s - %(name)s - %(levelname)s - %(message)s'
+mail:
+    HOST : "mail.WX.com"
+    PORT : 25
+    TO : "duanxin@WX.com"
+    FROM : "s1@WX.com"
+    PASSWD : "S1"
